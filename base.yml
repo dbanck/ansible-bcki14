@@ -1,0 +1,6 @@
+---
+- hosts: base
+  sudo: True
+
+  roles:
+    - nginx
